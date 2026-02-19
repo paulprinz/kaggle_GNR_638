@@ -1,0 +1,45 @@
+# Kaggle data (large files)
+data/
+*.zip
+*.tar.gz
+*.csv
+
+# Model checkpoints
+checkpoints/
+*.pth
+*.pt
+*.ckpt
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.eggs/
+*.so
+venv/
+.venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+*.nbconvert.ipynb
+
+# IDE / tools
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Claude
+.claude/
+CLAUDE.md
+
+# Kaggle credentials
+kaggle.json
+.kaggle/
+
+# OS
+.DS_Store
+Thumbs.db
